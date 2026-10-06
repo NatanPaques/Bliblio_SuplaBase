@@ -38,32 +38,6 @@ A infraestrutura e o banco de dados do projeto foram integrados e hospedados uti
 - [x] Integração direta com banco de dados Supabase
 - [x] Interface responsiva e acessível
 
----
-
-## 🚀 Como Executar o Projeto Localmente
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/natanpaques/Bliblio_SuplaBase.git
-   ```
-
-2. **Acesse o diretório do projeto:**
-   ```bash
-   cd Bliblio_SuplaBase
-   ```
-
-3. **Configure as Variáveis de Ambiente:**
-   Crie ou edite o arquivo de configuração para incluir suas credenciais do Supabase:
-   ```env
-   SUPABASE_URL=sua_url_do_supabase
-   SUPABASE_KEY=sua_chave_anonima_do_supabase
-   ```
-
-4. **Execute o projeto:**
-   Abra o arquivo `index.html` em seu navegador ou utilize uma extensão como o *Live Server* no VS Code.
-
----
-
 ## 👤 Autor
 
 Desenvolvido por **Natan Paques**.

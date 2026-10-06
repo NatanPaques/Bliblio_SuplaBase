@@ -1,0 +1,470 @@
+/* =====================================================
+   CONFIGURAÇÕES GERAIS
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f4f6f8;
+
+    color: #333;
+
+    line-height: 1.5;
+
+}
+
+
+
+/* =====================================================
+   CABEÇALHO
+===================================================== */
+
+header {
+
+    background: #263238;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+}
+
+
+header h1 {
+
+    margin: 0 0 8px;
+
+    font-size: 32px;
+
+}
+
+
+header p {
+
+    margin: 0;
+
+    font-size: 16px;
+
+}
+
+
+
+/* =====================================================
+   CONTEÚDO PRINCIPAL
+===================================================== */
+
+main {
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    padding: 0 20px;
+
+}
+
+
+
+/* =====================================================
+   MENU
+===================================================== */
+
+.menu {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.menu button {
+
+    flex: 1;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #1976d2;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.menu button:hover {
+
+    background: #125ca1;
+
+}
+
+
+
+/* =====================================================
+   SEÇÕES
+===================================================== */
+
+section {
+
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+
+section h2 {
+
+    margin-top: 0;
+
+    color: #263238;
+
+}
+
+
+section h3 {
+
+    margin-top: 30px;
+
+}
+
+
+
+/* =====================================================
+   FORMULÁRIOS
+===================================================== */
+
+form {
+
+    display: grid;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.campo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+}
+
+
+.campo label {
+
+    font-weight: bold;
+
+}
+
+
+input,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    background: white;
+
+}
+
+
+input:focus,
+select:focus {
+
+    outline: none;
+
+    border-color: #1976d2;
+
+}
+
+
+
+/* =====================================================
+   BOTÃO PRINCIPAL
+===================================================== */
+
+.btn-principal {
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #388e3c;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.btn-principal:hover {
+
+    background: #2e7031;
+
+}
+
+
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+.card {
+
+    border: 1px solid #ddd;
+
+    padding: 18px;
+
+    margin-bottom: 12px;
+
+    border-radius: 8px;
+
+    background: #fafafa;
+
+}
+
+
+.card h4 {
+
+    margin-top: 0;
+
+    margin-bottom: 8px;
+
+    font-size: 18px;
+
+}
+
+
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+.status-disponivel {
+
+    color: #2e7d32;
+
+    font-weight: bold;
+
+}
+
+
+.status-emprestado {
+
+    color: #c62828;
+
+    font-weight: bold;
+
+}
+
+
+.status-devolvido {
+
+    color: #2e7d32;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =====================================================
+   BOTÕES DOS CARDS
+===================================================== */
+
+.btn-excluir {
+
+    margin-top: 12px;
+
+    padding: 8px 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #c62828;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+.btn-excluir:hover {
+
+    background: #9e1f1f;
+
+}
+
+
+.btn-devolver {
+
+    margin-top: 12px;
+
+    padding: 8px 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #1976d2;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+.btn-devolver:hover {
+
+    background: #125ca1;
+
+}
+
+
+
+/* =====================================================
+   MENSAGENS
+===================================================== */
+
+.mensagem {
+
+    color: #777;
+
+    font-style: italic;
+
+}
+
+
+.mensagem-vazia {
+
+    padding: 20px;
+
+    text-align: center;
+
+    color: #777;
+
+    background: #f5f5f5;
+
+    border-radius: 6px;
+
+}
+
+
+
+/* =====================================================
+   RODAPÉ
+===================================================== */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background: #263238;
+
+    color: white;
+
+    margin-top: 40px;
+
+}
+
+
+footer p {
+
+    margin: 0;
+
+}
+
+
+
+/* =====================================================
+   RESPONSIVIDADE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .menu {
+
+        flex-direction: column;
+
+    }
+
+
+    header h1 {
+
+        font-size: 25px;
+
+    }
+
+
+    main {
+
+        margin-top: 20px;
+
+        padding: 0 10px;
+
+    }
+
+
+    section {
+
+        padding: 18px;
+
+    }
+
+}
